@@ -102,6 +102,8 @@ Errors I tried to pay attention on:
 ## Tester
 
 I made a simple tester for pipex project called test_pipex.sh
+		
+It test only mandatory part.
 
 ### How it works
 
