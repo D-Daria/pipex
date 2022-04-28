@@ -10,7 +10,7 @@
 
 [Description](https://github.com/D-Dashka/pipex#Description)
 
-[Error management](https://github.com/D-Dashka/pipex#https://github.com/D-Dashka/pipex#error-management)
+[Error management](https://github.com/D-Dashka/pipex#error-management)
 
 [Tester](https://github.com/D-Dashka/pipex#tester)
 
