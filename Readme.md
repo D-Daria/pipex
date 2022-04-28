@@ -8,6 +8,8 @@
 
 This project will let you discover in detail a UNIX mechanism that you already know by using it in your program.
 
+The main goal is to mimic behavior of the bash command <code>pipe</code>
+
 ## Description
 
 Your program will be executed as follows:
