@@ -115,7 +115,7 @@ Errors I tried to pay attention on:
 
 I made a simple tester for pipex project called test_pipex.sh
 		
-It test only mandatory part.
+It tests only mandatory part.
 
 ### How it works
 
