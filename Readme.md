@@ -4,6 +4,16 @@
 
 # 💈 pipex
 
+## Content
+
+[Summary](https://github.com/D-Dashka/pipex#summary)
+
+[Description](https://github.com/D-Dashka/pipex#Description)
+
+[Error management](https://github.com/D-Dashka/pipex#https://github.com/D-Dashka/pipex#error-management)
+
+[Tester](https://github.com/D-Dashka/pipex#tester)
+
 ## Summary
 
 This project will let you discover in detail a UNIX mechanism that you already know by using it in your program.
@@ -47,7 +57,7 @@ It must behave exactly the same as the shell command below:
 
 `outfile` - file to write the result of the second command
 
-### Error management
+## Error management
 
 Errors I tried to pay attention on:
 
