@@ -81,19 +81,19 @@ Errors I tried to pay attention on:
     
 &nbsp;&nbsp;&nbsp;&nbsp;◦ Empty command
 
-		./pipex infile "" "     " outfile
+	./pipex infile "" "     " outfile
     
 &nbsp;&nbsp;&nbsp;&nbsp;◦ First comand not found
 
-		./pipex infile "cats" "wc -l" outfile
+	./pipex infile "cats" "wc -l" outfile
     
 &nbsp;&nbsp;&nbsp;&nbsp;◦ Second command not found
 
-		./pipex infile "cat" "what" outfile
+	./pipex infile "cat" "what" outfile
     
 &nbsp;&nbsp;&nbsp;&nbsp;◦ Both command not found
 
-		./pipex infile "cats" "meow" outfile
+	./pipex infile "cats" "meow" outfile
     
 • Several commands at once
 
