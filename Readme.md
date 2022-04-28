@@ -39,11 +39,14 @@ It must behave exactly the same as the shell command below:
 <code>$> <code file1 cmd1 | cmd2 > file2</code>
 
 ### Example
-
-	./pipex infile "ls -l" "wc -l" outfile
+```c
+./pipex infile "ls -l" "wc -l" outfile
+```
 <br>
 
-	< infile ls -l | wc -l > outfile
+```c
+< infile ls -l | wc -l > outfile
+```
 
 `<` - is used to **redirect output**
 
@@ -64,9 +67,9 @@ It must behave exactly the same as the shell command below:
 Errors I tried to pay attention on:
 
 • check leaks using valgrind
-
-	valgrind --track-origins=yes --trace-children=yes --leak-check=full ./pipex [args]
-
+```c
+valgrind --track-origins=yes --trace-children=yes --leak-check=full ./pipex [args]
+```
 • outfile is empty
 
 • infile is empty
@@ -74,15 +77,15 @@ Errors I tried to pay attention on:
 <code>If infile is empty and second command ***`wc`*** → `0`</code>
     
 • command is written with path
-    
-    ./pipex infile "///////usr/bin/grep hello" "wc -l" file2
-
+```c
+./pipex infile "///////usr/bin/grep hello" "wc -l" file2
+```
 • command is not a directory
 
 • program exit codes
-    
-    echo &?
-    
+```c  
+echo &?
+```
 • Error file openning
 
 &nbsp;&nbsp;&nbsp;&nbsp;◦ if first file doesn't exist
@@ -92,25 +95,26 @@ Errors I tried to pay attention on:
 • Commands errors
     
 &nbsp;&nbsp;&nbsp;&nbsp;◦ Empty command
-
-	./pipex infile "" "     " outfile
-    
+```
+./pipex infile "" "     " outfile
+```
 &nbsp;&nbsp;&nbsp;&nbsp;◦ First comand not found
 
-	./pipex infile "cats" "wc -l" outfile
-    
+```c
+./pipex infile "cats" "wc -l" outfile
+```
 &nbsp;&nbsp;&nbsp;&nbsp;◦ Second command not found
-
-	./pipex infile "cat" "what" outfile
-    
+```c
+./pipex infile "cat" "what" outfile
+```
 &nbsp;&nbsp;&nbsp;&nbsp;◦ Both command not found
-
-	./pipex infile "cats" "meow" outfile
-    
+```c
+./pipex infile "cats" "meow" outfile
+```
 • Several commands at once
-
-	./pipex nofile "ca" " " /dev/null/; echo $?
-
+```c
+./pipex nofile "ca" " " /dev/null/; echo $?
+```
 ## Tester
 
 I made a simple tester for pipex project called test_pipex.sh
@@ -125,9 +129,9 @@ Also it checks exit codes of pipex program and of bash command also sending it t
 ***How to run***
 
 In directory with pipex program run:
-
-	bash test_pipex.sh
-
+```c
+bash test_pipex.sh
+```
 ***Outputs***
 
 You can see outputs of your program in <code>tests/check_outs/file_shell</code> and of bash command pipe <code>|</code> in <code>tests/check_outs/file_pipex</code> files.
