@@ -14,6 +14,8 @@
 
 [Tester](https://github.com/D-Dashka/pipex#tester)
 
+[Disclaimer](https://github.com/D-Dashka/pipex#disclaimer)
+
 ## Summary
 
 This project will let you discover in detail a UNIX mechanism that you already know by using it in your program.
@@ -134,7 +136,9 @@ You can see outputs of your program in <code>tests/check_outs/file_shell</code> 
 
 This tester is not highly professional or super complicated bash script code. It is just a number of different arguments for pipex program comparing with bash command pipe <code>|</code>.
 
-You can use it to check outputs of your program but not as an absolute reference for defence or for making your code relevant. 
+You can use it to check outputs of your program but not as an absolute reference for defence or for making your code relevant.
+
+Moreover I used this only on Mac OS.
 
 I am sure there are a lot of things to modify and to improve in this tester. I am open to new ideas 💡
 
