@@ -107,11 +107,11 @@ echo &?
 ```c
 ./pipex infile "cat" "what" outfile
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;◦ Both command not found
+&nbsp;&nbsp;&nbsp;&nbsp;◦ Both commands not found
 ```c
 ./pipex infile "cats" "meow" outfile
 ```
-• Several commands at once
+• All errors at once
 ```c
 ./pipex nofile "ca" " " /dev/null/; echo $?
 ```
