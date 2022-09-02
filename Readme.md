@@ -1,13 +1,15 @@
 <h1 align="center">💈 pipex</h1>
-<div align="center">
+
+<div style="height: 10px"></div>
+<div style="display: flex; justify-content: center; align-items: center; column-gap: 5px">
 <span>
 	<img src="https://img.shields.io/badge/language-00599C?logo=C&?logoWidth=40&logoColor=white&style=for-the-badge">
 </span>
 <span>
-	<img src="info/imgs/school-000014.svg">
+	<img  style="height: 27px" src="info/imgs/school21_badge.svg">
 </span>
 <span>
-    <img src="https://img.shields.io/badge/ecole-black?logo=42&logoWidth=20&style=for-the-badge&?labelColor=black">
+    <img style="height: 28px" src="https://img.shields.io/badge/ecole-black?logo=42&logoWidth=20&style=for-the-badge&?labelColor=black">
 </span>
 </div>
 <div style="height: 10px"></div>
