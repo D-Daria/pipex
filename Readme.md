@@ -1,7 +1,3 @@
-<div align="center" max-width="auto" max-height="auto">
-	<img src="imgs/21_42_logos.png" max-height="250" alight="center">
-</div>
-
 # 💈 pipex
 
 ## Content
