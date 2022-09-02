@@ -1,5 +1,5 @@
 <div align="center" style="max-width: auto; max-height: auto">
-	<img src="info/imgs/21_42.png" style="max-width: 400px" align="center">
+	<img src="info/imgs/21_42.png" style="width: 300px" align="center">
 </div>
 
 # 💈 pipex
