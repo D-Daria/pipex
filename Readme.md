@@ -1,3 +1,7 @@
+<div align="center" style="max-width: auto; max-height: auto">
+	<img src="info/imgs/21_42.png" style="max-width: 500px" align="center">
+</div>
+
 # 💈 pipex
 
 ## Content
