@@ -1,5 +1,5 @@
 <h1 align="center">💈 pipex</h1>
-<div style="display: flex; justify-content: center; column-gap: 10px">
+<div align="center">
 <span>
 	<img src="https://img.shields.io/badge/language-00599C?logo=C&?logoWidth=40&logoColor=white&style=for-the-badge">
 </span>
