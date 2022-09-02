@@ -4,7 +4,7 @@
 	<img src="https://img.shields.io/badge/language-00599C?logo=C&?logoWidth=40&logoColor=white&style=for-the-badge">
 </span>
 <span>
-	<img src="school-000014.svg">
+	<img src="info/imgs/school-000014.svg">
 </span>
 <span>
     <img src="https://img.shields.io/badge/ecole-black?logo=42&logoWidth=20&style=for-the-badge&?labelColor=black">
