@@ -1,8 +1,11 @@
-<div align="center" style="max-width: auto; max-height: auto">
-	<img src="info/imgs/21_42.png" style="width: 300px" align="center">
-</div>
-
 # 💈 pipex
+
+<div>
+<span>
+	<img src="https://img.shields.io/badge/language-00599C?logo=C&logoColor=white&style=for-the-badge">
+</span>
+</div>
+<div style="height: 10px"></div>
 
 ## Content
 
