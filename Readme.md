@@ -1,7 +1,7 @@
 <h1 align="center">💈 pipex</h1>
 
 <div style="height: 10px"></div>
-<div style="display: flex; justify-content: center; align-items: center; column-gap: 5px">
+<div align="center" style="display: flex; justify-content: center; align-items: center; column-gap: 5px">
 <span>
 	<img src="https://img.shields.io/badge/language-00599C?logo=C&?logoWidth=40&logoColor=white&style=for-the-badge">
 </span>
